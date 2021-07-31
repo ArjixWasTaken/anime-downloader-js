@@ -1,4 +1,4 @@
-import * as helpers from "../core/helpers.js";
+import helpers from "../core/helpers.js";
 
 export default {
     extractorName: "TenshiMoe",
