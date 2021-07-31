@@ -8,4 +8,4 @@ It's in an unusable state, so if you don't know what you are doing then don't at
 
 ## Run
 This package registers its entry command as `anim`.
-So you can use it by running `anim` from your terminal. (the npm binaries foldre should be in PATH.)
+So you can use it by running `anim` from your terminal. (the npm binaries folder should be in PATH.)
