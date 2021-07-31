@@ -22,7 +22,7 @@ then do so at the websites this software is scraping.
 I (the author) and any contributors have no control over the content that is found by the usage of this software.
 */
 
-// Inspired by https://github.com/anime-downloader/anime-dl
+// Inspired by https://github.com/anime-dl/anime-downloader
 // This is a port of anime-dl to NodeJS.
 
 import yargs from "yargs";
