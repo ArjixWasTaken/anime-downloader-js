@@ -4,7 +4,7 @@ It's in an unusable state, so if you don't know what you are doing then don't at
 
 ## Install
 * clone this repo
-* cd into it and run `yard install` (I recommend using yarn, npm should also work but I had issues with it before.)
+* cd into it and run `yarn install` (I recommend using yarn, npm should also work but I had issues with it before.)
 
 ## Run
 This package registers its entry command as `anim`.
