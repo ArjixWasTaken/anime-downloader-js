@@ -34,6 +34,7 @@ const get = async (link, options = {}) => {
     }
     if (options.data && !utils.isDictEmpty(options.data)) {
         init.body = utils.stringify(options.data);
+        init.headers["Content-Type"] = "application/x-www-form-urlencoded"
     }
 
     if (verbose)
@@ -87,9 +88,11 @@ const post = async (link, options = {}) => {
 
     if (options.data && !utils.isDictEmpty(options.data)) {
         init.body = utils.stringify(options.data);
+        init.headers["Content-Type"] = "application/x-www-form-urlencoded"
     }
     if (options.json && !utils.isDictEmpty(options.json)) {
         init.body = JSON.stringify(options.json);
+        init.headers["Content-Type"] = "application/json"
     }
 
     if (verbose)
